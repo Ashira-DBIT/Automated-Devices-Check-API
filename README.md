@@ -1,3 +1,25 @@
+(System Architecture)
+
+[ User's Local Network ]
+│
+▼
+[ Python Script: DBSN.py ] <───> [ .env File ] (Secrets: API Token/User ID)
+│
+├─► [ Step 1: Network Scan ] (Ping each device in list)
+│           │
+│           └─► Success: Log to Terminal ✅
+│           └─► Failure: Trigger Alert ❌
+│
+▼
+[ Step 2: API Request ] (HTTPS POST via urllib)
+│
+▼
+[ Cloud / Internet ] ──► [ LINE Messaging API ]
+│
+▼
+[ Your Mobile Device ] (Immediate LINE Notification)
+
+
 🇺🇸 English (International)
 
 About the Project :
