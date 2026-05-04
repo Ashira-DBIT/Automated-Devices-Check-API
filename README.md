@@ -28,15 +28,15 @@ Getting Started :
 
 
 
-\-- Create a .env file with your LINE\_ACCESS\_TOKEN and USER\_ID.
+\- Create a .env file with your LINE\_ACCESS\_TOKEN and USER\_ID.
 
 
 
-\--- Add your device IPs to the devices dictionary in check\_devices.py.
+\- Add your device IPs to the devices dictionary in check\_devices.py.
 
 
 
-\---- Execute the script: python check\_devices.py
+\- Execute the script: python check\_devices.py
 
 
  🇹🇭 ฉบับภาษาไทย (Thai)
